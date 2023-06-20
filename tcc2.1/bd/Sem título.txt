@@ -1,0 +1,21 @@
+
+INSERT INTO `produtos` (`IdProduto`, `NomeProd`, `QtndProd`, `DataVenci`, `Fabricante`, `TipoProd`, `Medidas`, `Descricao`) VALUES
+(1, 'Glifage XR', 100, '2023-09-07', 'Merck', 'Genérico', '500 mg', 'É indicado para tratar diabetes tipo 2...'),
+(2, 'Ibupril ', 50, '2023-09-15', 'Teuto', 'Genérico', '600 mg', 'Comprimidos age contra inflamação, dor e febre.'),
+(3, 'Analgésico Dorflex Sanofi', 47, '2023-10-30', 'Dorflex', 'Original', '300 mg', 'É utilizado para o tratamento de dores no corpo, associadas à contraturas musculares, processos traumaticos.'),
+(6, 'Rosuvastatina Cálcica', 50, '2023-08-31', 'Althaia', 'Genérico', '10 mg', 'É utilizado para tratar o excesso de colesterol e outras gorduras do sangue. Sua ação reduz o colesterol total, o mau colesterol (LDL) e triglicérides enquanto eleva o nível de bom colesterol (HDL). Use de acordo com a prescrição médica.'),
+(8, 'Budesonida', 62, '2023-12-21', 'ems', 'Genérico', '32 mg', 'Como age o Budesonida?\r\nA budesonida é um glicocorticosteroide com grande efeito anti-inflamatório local.'),
+(9, 'Dipirona', 100, '2023-06-29', 'Dipirona', 'Original', '300 mg', 'Age em febres, colicas e dores de cabeça.'),
+(10, 'Diclofenaco Sódico', 200, '2023-07-12', 'Ems', 'Genérico', '100 mg', '10 Comprimidos é um anti-inflamatório não-esteroidais apresentado em comprimidos de desintegração lenta. '),
+(11, 'Losartana Potássica', 150, '2023-08-04', 'Geolab', 'Genérico', '50 mg', 'Para o tratamento de hipertensão e insuficiência cardíaca, quando o tratamento com inibidor da ECA não é mais considerado adequado; para reduzir o risco de morbidade e mortalidade cardiovascular avaliado pela incidência combinada de morte cardiovascular;');
+
+
+
+
+INSERT INTO `usuario` (`cpf`, `nome`, `sobrenome`, `telefone`, `estado`, `cidade`, `endereco`, `nivelAcess`, `sexo`, `email`, `senha`) VALUES
+('11111111111', 'Douglas Medeiros', 'Oliveira', '11977445566', 'São Paulo', 'Embu Guaçu', 'Rua Amador Bueno, 40', 'Administrador', 'Masculino', 'douglasAdm@test.com', 'adm'),
+('12345678912', 'Guilherme', 'Gomes', '11945235465', 'São Paulo', 'Cidade Dutra', 'Rua dos Amadores, 400', 'Administrador', 'Masculino', 'guilherme@gmail.com', '123456'),
+('12345678975', 'João', 'Mauro', '15425484568', 'São Paulo', 'Boituva', 'Rua das Amargosas, 30', 'Farmacêutico', 'Masculino', 'joaomauro@gmail.com', 'algo'),
+('22222222222', 'Marios', 'da Silva', '11977415563', 'São Paulo', 'Itupeva', 'Rua Limas, 600', 'Cliente', 'Masculino', 'mariosilva@gmail.com', 'cliente'),
+('56485632412', 'Emauel', 'Gomes', '11923154658', 'São Paulo', 'São Paulo', 'Rua Mandacaru, 100', 'Farmacêutico', 'Masculino', 'emanul@gmail.com', 'junior'),
+('64856548996', 'Marcelo', 'Rocha', '11946526584', 'São Paulo', 'Pirituba', 'Rua das Mangas, 450', 'Farmacêutico', 'Masculino', 'marcelorocha@hotmail.com', '12345');
